@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.cobelpvp</groupId>
+        <artifactId>queue-parent</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <name>Queue-Bukkit</name>
+
+    <artifactId>bukkit</artifactId>
+
+    <repositories>
+        <repository>
+            <id>md5-repo</id>
+            <url>http://repo.md-5.net/content/groups/public/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.cobelpvp</groupId>
+            <artifactId>craftbukkit-server</artifactId>
+            <version>1.7.10-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.cobelpvp</groupId>
+            <artifactId>craftbukkit-api</artifactId>
+            <version>1.7.10-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.cobelpvp</groupId>
+            <artifactId>atheneum</artifactId>
+            <version>1.2.8</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.cobelpvp</groupId>
+            <artifactId>shared</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.cobelpvp</groupId>
+            <artifactId>independent</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>${project.name}</finalName>
+    </build>
+
+</project>

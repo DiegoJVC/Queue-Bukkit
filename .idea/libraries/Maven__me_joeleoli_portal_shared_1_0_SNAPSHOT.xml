@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Maven: me.joeleoli.portal:shared:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/me/joeleoli/portal/shared/1.0-SNAPSHOT/shared-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/Shared/shared-1.0-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/me/joeleoli/portal/shared/1.0-SNAPSHOT/shared-1.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/Shared/shared-1.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/me/joeleoli/portal/shared/1.0-SNAPSHOT/shared-1.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

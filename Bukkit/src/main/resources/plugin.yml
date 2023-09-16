@@ -1,0 +1,4 @@
+name: Queue-Bukkit
+version: ${project.version}
+author: CobelPvP Development Team
+main: com.cobelpvp.queue.bukkit.Queue
