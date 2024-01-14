@@ -23,7 +23,7 @@ public class Config {
 
                 FileOutputStream output = new FileOutputStream(file);
                 output.write("hubs=Hub\n".getBytes());
-                output.write("queues=Practice,HCFactions,KitMap,KitPvP,SkyWars,PrisonOP\n".getBytes());
+                output.write("queues=Practice,HCFactions,PrisonOP,DestroyTheNexus,Cubecore\n".getBytes());
                 output.write("redis-host=127.0.0.1\n".getBytes());
                 output.write("redis-port=6379\n".getBytes());
                 output.write("redis-password=\n".getBytes());
